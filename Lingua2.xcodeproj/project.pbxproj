@@ -7,9 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA00665315D1E13700AB3B2E /* LGName.m in Sources */ = {isa = PBXBuildFile; fileRef = FA00665215D1E13700AB3B2E /* LGName.m */; };
 		FA560F2115C88302001C9839 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA560F2015C88302001C9839 /* Foundation.framework */; };
 		FA560F2415C88302001C9839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F2315C88302001C9839 /* main.m */; };
 		FA560F2815C88302001C9839 /* Lingua2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA560F2715C88302001C9839 /* Lingua2.1 */; };
+		FA560F3315C8833D001C9839 /* LGObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F3215C8833D001C9839 /* LGObject.m */; };
+		FA560F3915C88390001C9839 /* LGWord.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F3815C88390001C9839 /* LGWord.m */; };
+		FA560F3C15C88474001C9839 /* LGNoun.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F3B15C88474001C9839 /* LGNoun.m */; };
+		FA560F3F15C88483001C9839 /* LGPronoun.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F3E15C88483001C9839 /* LGPronoun.m */; };
+		FA560F4215C8848D001C9839 /* LGVerb.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F4115C8848D001C9839 /* LGVerb.m */; };
+		FA560F4515C884A6001C9839 /* LGAdverb.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F4415C884A6001C9839 /* LGAdverb.m */; };
+		FA560F4815C884B6001C9839 /* LGAdjective.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F4715C884B6001C9839 /* LGAdjective.m */; };
+		FA560F4B15C884D9001C9839 /* LGDeterminer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F4A15C884D9001C9839 /* LGDeterminer.m */; };
+		FA560F4E15C884E1001C9839 /* LGPreposition.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F4D15C884E1001C9839 /* LGPreposition.m */; };
+		FA560F5115C884E9001C9839 /* LGConjunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F5015C884E9001C9839 /* LGConjunction.m */; };
+		FA560F5415C884FB001C9839 /* LGInterjection.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F5315C884FB001C9839 /* LGInterjection.m */; };
+		FA560F5715C8857A001C9839 /* LGPhrase.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F5615C8857A001C9839 /* LGPhrase.m */; };
+		FA560F5D15C88DFD001C9839 /* LGParseContext.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F5C15C88DFD001C9839 /* LGParseContext.m */; };
+		FA560F6015C89D50001C9839 /* LGNounPhrase.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F5F15C89D50001C9839 /* LGNounPhrase.m */; };
+		FA560F6315C8A2A6001C9839 /* LGVerbalPhrase.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F6215C8A2A6001C9839 /* LGVerbalPhrase.m */; };
+		FA560F6615C8AB0D001C9839 /* LGInfinitive.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F6515C8AB0D001C9839 /* LGInfinitive.m */; };
+		FA560F6915C8AB20001C9839 /* LGPrepositional.m in Sources */ = {isa = PBXBuildFile; fileRef = FA560F6815C8AB20001C9839 /* LGPrepositional.m */; };
+		FAF31C2D15D1D1B0006734F0 /* LGRelativePhrase.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF31C2C15D1D1B0006734F0 /* LGRelativePhrase.m */; };
+		FAFAD2D815CB446900776767 /* LGSingleUnknown.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFAD2D715CB446900776767 /* LGSingleUnknown.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +46,51 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA00665115D1E13700AB3B2E /* LGName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGName.h; sourceTree = "<group>"; };
+		FA00665215D1E13700AB3B2E /* LGName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGName.m; sourceTree = "<group>"; };
 		FA560F1C15C88302001C9839 /* Lingua2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lingua2; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA560F2015C88302001C9839 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA560F2315C88302001C9839 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA560F2615C88302001C9839 /* Lingua2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lingua2-Prefix.pch"; sourceTree = "<group>"; };
 		FA560F2715C88302001C9839 /* Lingua2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Lingua2.1; sourceTree = "<group>"; };
+		FA560F3115C8833D001C9839 /* LGObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGObject.h; sourceTree = "<group>"; };
+		FA560F3215C8833D001C9839 /* LGObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGObject.m; sourceTree = "<group>"; };
+		FA560F3715C88390001C9839 /* LGWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGWord.h; sourceTree = "<group>"; };
+		FA560F3815C88390001C9839 /* LGWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGWord.m; sourceTree = "<group>"; };
+		FA560F3A15C88474001C9839 /* LGNoun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGNoun.h; sourceTree = "<group>"; };
+		FA560F3B15C88474001C9839 /* LGNoun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGNoun.m; sourceTree = "<group>"; };
+		FA560F3D15C88483001C9839 /* LGPronoun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPronoun.h; sourceTree = "<group>"; };
+		FA560F3E15C88483001C9839 /* LGPronoun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPronoun.m; sourceTree = "<group>"; };
+		FA560F4015C8848D001C9839 /* LGVerb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGVerb.h; sourceTree = "<group>"; };
+		FA560F4115C8848D001C9839 /* LGVerb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGVerb.m; sourceTree = "<group>"; };
+		FA560F4315C884A6001C9839 /* LGAdverb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAdverb.h; sourceTree = "<group>"; };
+		FA560F4415C884A6001C9839 /* LGAdverb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAdverb.m; sourceTree = "<group>"; };
+		FA560F4615C884B6001C9839 /* LGAdjective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAdjective.h; sourceTree = "<group>"; };
+		FA560F4715C884B6001C9839 /* LGAdjective.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAdjective.m; sourceTree = "<group>"; };
+		FA560F4915C884D8001C9839 /* LGDeterminer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDeterminer.h; sourceTree = "<group>"; };
+		FA560F4A15C884D9001C9839 /* LGDeterminer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDeterminer.m; sourceTree = "<group>"; };
+		FA560F4C15C884E0001C9839 /* LGPreposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPreposition.h; sourceTree = "<group>"; };
+		FA560F4D15C884E1001C9839 /* LGPreposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPreposition.m; sourceTree = "<group>"; };
+		FA560F4F15C884E9001C9839 /* LGConjunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGConjunction.h; sourceTree = "<group>"; };
+		FA560F5015C884E9001C9839 /* LGConjunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGConjunction.m; sourceTree = "<group>"; };
+		FA560F5215C884FA001C9839 /* LGInterjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGInterjection.h; sourceTree = "<group>"; };
+		FA560F5315C884FB001C9839 /* LGInterjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGInterjection.m; sourceTree = "<group>"; };
+		FA560F5515C8857A001C9839 /* LGPhrase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPhrase.h; sourceTree = "<group>"; };
+		FA560F5615C8857A001C9839 /* LGPhrase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPhrase.m; sourceTree = "<group>"; };
+		FA560F5B15C88DFD001C9839 /* LGParseContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGParseContext.h; sourceTree = "<group>"; };
+		FA560F5C15C88DFD001C9839 /* LGParseContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGParseContext.m; sourceTree = "<group>"; };
+		FA560F5E15C89D50001C9839 /* LGNounPhrase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGNounPhrase.h; sourceTree = "<group>"; };
+		FA560F5F15C89D50001C9839 /* LGNounPhrase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGNounPhrase.m; sourceTree = "<group>"; };
+		FA560F6115C8A2A6001C9839 /* LGVerbalPhrase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGVerbalPhrase.h; sourceTree = "<group>"; };
+		FA560F6215C8A2A6001C9839 /* LGVerbalPhrase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGVerbalPhrase.m; sourceTree = "<group>"; };
+		FA560F6415C8AB0C001C9839 /* LGInfinitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGInfinitive.h; sourceTree = "<group>"; };
+		FA560F6515C8AB0D001C9839 /* LGInfinitive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGInfinitive.m; sourceTree = "<group>"; };
+		FA560F6715C8AB20001C9839 /* LGPrepositional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPrepositional.h; sourceTree = "<group>"; };
+		FA560F6815C8AB20001C9839 /* LGPrepositional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPrepositional.m; sourceTree = "<group>"; };
+		FAF31C2B15D1D1B0006734F0 /* LGRelativePhrase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGRelativePhrase.h; sourceTree = "<group>"; };
+		FAF31C2C15D1D1B0006734F0 /* LGRelativePhrase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGRelativePhrase.m; sourceTree = "<group>"; };
+		FAFAD2D615CB446900776767 /* LGSingleUnknown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSingleUnknown.h; sourceTree = "<group>"; };
+		FAFAD2D715CB446900776767 /* LGSingleUnknown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSingleUnknown.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +108,7 @@
 		FA560F1115C88302001C9839 = {
 			isa = PBXGroup;
 			children = (
+				FA560F2E15C8832F001C9839 /* Language */,
 				FA560F2215C88302001C9839 /* Lingua2 */,
 				FA560F1F15C88302001C9839 /* Frameworks */,
 				FA560F1D15C88302001C9839 /* Products */,
@@ -86,6 +147,69 @@
 				FA560F2615C88302001C9839 /* Lingua2-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA560F2E15C8832F001C9839 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				FA560F2F15C8832F001C9839 /* Clauses */,
+				FA560F3015C8832F001C9839 /* Words */,
+				FA560F3115C8833D001C9839 /* LGObject.h */,
+				FA560F3215C8833D001C9839 /* LGObject.m */,
+				FA560F5B15C88DFD001C9839 /* LGParseContext.h */,
+				FA560F5C15C88DFD001C9839 /* LGParseContext.m */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		FA560F2F15C8832F001C9839 /* Clauses */ = {
+			isa = PBXGroup;
+			children = (
+				FA560F5515C8857A001C9839 /* LGPhrase.h */,
+				FA560F5615C8857A001C9839 /* LGPhrase.m */,
+				FA560F5E15C89D50001C9839 /* LGNounPhrase.h */,
+				FA560F5F15C89D50001C9839 /* LGNounPhrase.m */,
+				FA560F6115C8A2A6001C9839 /* LGVerbalPhrase.h */,
+				FA560F6215C8A2A6001C9839 /* LGVerbalPhrase.m */,
+				FA560F6715C8AB20001C9839 /* LGPrepositional.h */,
+				FA560F6815C8AB20001C9839 /* LGPrepositional.m */,
+				FA560F6415C8AB0C001C9839 /* LGInfinitive.h */,
+				FA560F6515C8AB0D001C9839 /* LGInfinitive.m */,
+				FAFAD2D615CB446900776767 /* LGSingleUnknown.h */,
+				FAFAD2D715CB446900776767 /* LGSingleUnknown.m */,
+				FAF31C2B15D1D1B0006734F0 /* LGRelativePhrase.h */,
+				FAF31C2C15D1D1B0006734F0 /* LGRelativePhrase.m */,
+			);
+			path = Clauses;
+			sourceTree = "<group>";
+		};
+		FA560F3015C8832F001C9839 /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				FA560F3715C88390001C9839 /* LGWord.h */,
+				FA560F3815C88390001C9839 /* LGWord.m */,
+				FA560F3A15C88474001C9839 /* LGNoun.h */,
+				FA560F3B15C88474001C9839 /* LGNoun.m */,
+				FA560F3D15C88483001C9839 /* LGPronoun.h */,
+				FA560F3E15C88483001C9839 /* LGPronoun.m */,
+				FA560F4015C8848D001C9839 /* LGVerb.h */,
+				FA560F4115C8848D001C9839 /* LGVerb.m */,
+				FA560F4315C884A6001C9839 /* LGAdverb.h */,
+				FA560F4415C884A6001C9839 /* LGAdverb.m */,
+				FA560F4615C884B6001C9839 /* LGAdjective.h */,
+				FA560F4715C884B6001C9839 /* LGAdjective.m */,
+				FA560F4915C884D8001C9839 /* LGDeterminer.h */,
+				FA560F4A15C884D9001C9839 /* LGDeterminer.m */,
+				FA560F4C15C884E0001C9839 /* LGPreposition.h */,
+				FA560F4D15C884E1001C9839 /* LGPreposition.m */,
+				FA560F4F15C884E9001C9839 /* LGConjunction.h */,
+				FA560F5015C884E9001C9839 /* LGConjunction.m */,
+				FA560F5215C884FA001C9839 /* LGInterjection.h */,
+				FA560F5315C884FB001C9839 /* LGInterjection.m */,
+				FA00665115D1E13700AB3B2E /* LGName.h */,
+				FA00665215D1E13700AB3B2E /* LGName.m */,
+			);
+			path = Words;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +264,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA560F2415C88302001C9839 /* main.m in Sources */,
+				FA560F3315C8833D001C9839 /* LGObject.m in Sources */,
+				FA560F3915C88390001C9839 /* LGWord.m in Sources */,
+				FA560F3C15C88474001C9839 /* LGNoun.m in Sources */,
+				FA560F3F15C88483001C9839 /* LGPronoun.m in Sources */,
+				FA560F4215C8848D001C9839 /* LGVerb.m in Sources */,
+				FA560F4515C884A6001C9839 /* LGAdverb.m in Sources */,
+				FA560F4815C884B6001C9839 /* LGAdjective.m in Sources */,
+				FA560F4B15C884D9001C9839 /* LGDeterminer.m in Sources */,
+				FA560F4E15C884E1001C9839 /* LGPreposition.m in Sources */,
+				FA560F5115C884E9001C9839 /* LGConjunction.m in Sources */,
+				FA560F5415C884FB001C9839 /* LGInterjection.m in Sources */,
+				FA560F5715C8857A001C9839 /* LGPhrase.m in Sources */,
+				FA560F5D15C88DFD001C9839 /* LGParseContext.m in Sources */,
+				FA560F6015C89D50001C9839 /* LGNounPhrase.m in Sources */,
+				FA560F6315C8A2A6001C9839 /* LGVerbalPhrase.m in Sources */,
+				FA560F6615C8AB0D001C9839 /* LGInfinitive.m in Sources */,
+				FA560F6915C8AB20001C9839 /* LGPrepositional.m in Sources */,
+				FAFAD2D815CB446900776767 /* LGSingleUnknown.m in Sources */,
+				FAF31C2D15D1D1B0006734F0 /* LGRelativePhrase.m in Sources */,
+				FA00665315D1E13700AB3B2E /* LGName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +376,7 @@
 				FA560F2D15C88302001C9839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
