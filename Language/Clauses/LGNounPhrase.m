@@ -22,6 +22,14 @@
             }
         }
     }
+    id lastToken = [tokens lastObject];
+    if ([lastToken isKindOfClass:[LGAdjective class]] || [lastToken isKindOfClass:[LGDeterminer class]]) {
+        if ([[word classPossibilities] containsObject:NSLinguisticTagNoun] && !hasNoun) {
+            if (![word isKindOfClass:[LGNoun class]]) {
+                newClass = [LGNoun class];
+            }
+        }
+    }
     if (newClass) {
         LGWord * nWord = [[newClass alloc] initWithWord:word.word root:word.root range:word.characterRange];
         nWord.classPossibilities = word.classPossibilities;
